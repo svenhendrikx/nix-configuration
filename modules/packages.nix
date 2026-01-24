@@ -15,5 +15,8 @@
         mlocate
 	python3
 	uv
+    lazydocker
+    opencode
+    bind
     ];
 }
