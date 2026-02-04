@@ -18,5 +18,6 @@
     lazydocker
     opencode
     bind
+    btrfs-progs
     ];
 }
