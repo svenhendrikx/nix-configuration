@@ -4,6 +4,7 @@
   # Headless, no X server
   services.xserver.enable = false;
   services.xserver.videoDrivers = [ "nvidia" ];
+  nixpkgs.config.allowUnfree = true;
 
   # NVIDIA driver setup
   hardware.nvidia = {
