@@ -11,17 +11,20 @@
       inherit system;
 
       modules = [
-        /etc/nixos/configuration.nix   # Incus-generated root
+        /etc/nixos/configuration.nix
 
         ./modules/base.nix
-        ./modules/networking.nix
-        ./modules/nvidia.nix
-        ./modules/incus.nix
         ./modules/users.nix
-        # ./modules/docker.nix
+        ./modules/networking.nix
         ./modules/packages.nix
         ./modules/programs.nix
         ./modules/aliases.nix
+
+        # Toggle if needed
+        # ./modules/nvidia-driver.nix
+        # ./modules/nvidia-runtime.nix
+        # ./modules/incus.nix
+        # ./modules/docker.nix
         # ./modules/neovim-config.nix
       ];
     };
