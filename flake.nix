@@ -15,12 +15,14 @@
 
         ./modules/base.nix
         ./modules/networking.nix
+        ./modules/nvidia.nix
+        ./modules/incus.nix
         ./modules/users.nix
-        ./modules/docker.nix
+        # ./modules/docker.nix
         ./modules/packages.nix
         ./modules/programs.nix
         ./modules/aliases.nix
-        ./modules/neovim-config.nix
+        # ./modules/neovim-config.nix
       ];
     };
   };
