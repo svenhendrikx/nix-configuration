@@ -1,6 +1,7 @@
 { ... }:
 {
     virtualisation.incus.enable = true;
+    virtualisation.incus.ui.enable = true;
     networking.nftables.enable = true;
     users.users.sven.extraGroups = ["incus-admin"];
 
