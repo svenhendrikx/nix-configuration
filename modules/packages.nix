@@ -20,5 +20,6 @@
     bind
     btrfs-progs
     htop
+    go
     ];
 }

@@ -21,10 +21,10 @@
         ./modules/aliases.nix
 
         # Toggle if needed
-        ./modules/nvidia-driver.nix
-        ./modules/nvidia-runtime.nix
-        ./modules/incus.nix
-        # ./modules/docker.nix
+        # ./modules/nvidia-driver.nix
+        # ./modules/nvidia-runtime.nix
+        # ./modules/incus.nix
+        ./modules/docker.nix
         # ./modules/neovim-config.nix
       ];
     };
